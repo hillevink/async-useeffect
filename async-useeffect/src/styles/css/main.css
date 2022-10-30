@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 80%;
+}
+ 
+article {
+  padding: 2rem;
+}
+
+form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+input {
+  padding: 1rem;
+}
+
+button {
+  padding: 1rem;
+  color: black;
+  background-color: white;
+  border: none;
+}
